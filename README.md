@@ -1,2 +1,4 @@
 # Basic-Jokenpo-Game
-Game in C
+Game is created in C  
+-Must have C installed.  
+Have Fun ;)
