@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <windows.h>
 #include <time.h>
 int main(){
+SetConsoleOutputCP(65001); //Correção de erro de acentuação windows
 int escolhacomputador, escolhajogador;
 srand (time (0));
 escolhacomputador = rand() %3 + 1;
